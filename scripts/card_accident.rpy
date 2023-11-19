@@ -1,13 +1,40 @@
+screen choose: 
+    imagebutton: 
+        at left
+        focus_mask True 
+        idle "images/Backgrounds/car1.jpg" 
+        hover "images/Backgrounds/car1_hover.png"
+        padding (0.23, 0.3)
+        action Return()
+    imagebutton: 
+        at center
+        focus_mask True 
+        idle "images/Backgrounds/car1.jpg" 
+        hover "images/Backgrounds/car1_hover.png"
+        padding (0.23, 0.3)
+        action Return()
+    imagebutton: 
+        at right
+        focus_mask True 
+        idle "images/Backgrounds/car1.jpg" 
+        hover "images/Backgrounds/car1_hover.png"
+        padding (0.23, 0.3)
+        action Return()
 
 label card_accident:
     scene mc_room 
     show main_character:
         xalign 0.2
+        xzoom -1.0
+        yalign 0.3
     with fade
 
     "Был теплый июньский вечер. Олег сосредоточенно сидел за игрой World of Cars и донатил на 
     очередное дополнение для своей новой машине."
 
+    play sound door_open volume 0.5 fadein 1.0
+    show main_character:
+        xzoom 1.0
     "Вдруг, дверь неожиданно распахнулась."
 
     show mother with moveinright:
@@ -37,6 +64,7 @@ label card_accident:
                 xzoom 1.0
                 linear 0.2 xalign 1.5
             with hpunch
+            play sound door_slam
 
             "..."
 
@@ -53,5 +81,67 @@ label card_accident:
                 xzoom 1.0
                 linear 0.5 xalign 1.5
 
-    mc "Опять она с этим университетом пристала. Откуда я знаю, кем я хочу быть? Лучше поиграю, 
-    а то совсем забыл про турнир, а он уже в 4 начинается. Надо скорее прокачать мою машину."
+    mc "Опять она с этим университетом пристала. Откуда я знаю, кем я хочу быть?"
+
+    show main_character:
+        xzoom -1.0
+
+    mc "Лучше поиграю, а то совсем забыл про турнир, 
+    а он уже в 4 начинается. Надо скорее прокачать мою машину."
+
+    call money_theft
+
+    scene mc_room 
+    show main_character:
+        xalign 0.2
+        xzoom -1.0
+        yalign 0.3
+    with fade
+
+    play sound notification
+    "..."
+
+    "\"С вашей карты были списаны все деньги\""
+
+    mc "Адалваоиватпл." with vpunch
+
+    show main_character:
+        xzoom 1.0
+        linear 0.3 yalign 0.5
+    mc "Я же недавно антивирус устанавливал. Да пошло оно всё…."
+
+    show main_character:
+        linear 1 xalign 1.5
+    "..."
+
+    jump cafe_trip
+
+
+label money_theft:
+    scene computer_screen
+    show game_launcher
+    call screen choose
+    with fade
+
+
+    show credit_card_info:
+        yalign 0.7
+        xalign 0.5
+
+    mc "Класс. Осталось только оплатить."
+
+    mc "8" 
+    mc "9" 
+    mc "6" 
+    mc "4" 
+
+    show layer master at glitch
+    play sound glitch_sound volume 0.5
+
+    mc "..."
+
+    scene black
+    mc "Какого…."
+
+
+
