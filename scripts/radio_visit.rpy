@@ -71,7 +71,7 @@ label radio_visit:
 
     "В это время Ден включает фонарик и направляет в глаза охраннице"
 
-    call run_choose
+    call run_choose from _call_run_choose
 
     scene passage
     with fade
@@ -144,7 +144,7 @@ label radio_visit:
 
     svet "Ну вот, другое дело. Тут мы сможем нормально поговорить. Можешь задавать вопросы."
 
-    call questions
+    call questions from _call_questions
 
     svet "Надеюсь, мы смогли тебе помочь. Были рады с тобой познакомиться. Ждем тебя в 
     следующем году в нашем университете!"
