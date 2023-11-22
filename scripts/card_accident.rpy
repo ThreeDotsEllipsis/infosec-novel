@@ -2,22 +2,22 @@ screen choose:
     imagebutton: 
         at left
         focus_mask True 
-        idle "images/Backgrounds/car1.jpg" 
-        hover "images/Backgrounds/car1_hover.png"
+        idle "images/Backgrounds/car.jpg" 
+        hover "images/Backgrounds/car_hover.png"
         padding (0.23, 0.3)
         action Return()
     imagebutton: 
         at center
         focus_mask True 
-        idle "images/Backgrounds/car1.jpg" 
-        hover "images/Backgrounds/car1_hover.png"
+        idle "images/Backgrounds/car.jpg" 
+        hover "images/Backgrounds/car_hover.png"
         padding (0.23, 0.3)
         action Return()
     imagebutton: 
         at right
         focus_mask True 
-        idle "images/Backgrounds/car1.jpg" 
-        hover "images/Backgrounds/car1_hover.png"
+        idle "images/Backgrounds/car.jpg" 
+        hover "images/Backgrounds/car_hover.png"
         padding (0.23, 0.3)
         action Return()
 
