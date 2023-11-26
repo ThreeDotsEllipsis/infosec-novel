@@ -121,17 +121,14 @@ label money_theft:
     call screen choose
     with fade
 
-
     show credit_card_info:
         yalign 0.7
         xalign 0.5
 
     mc "Класс. Осталось только оплатить."
 
-    mc "8" 
-    mc "9" 
-    mc "6" 
-    mc "4" 
+    "Введите данные карты"
+    call screen input_id
 
     show layer master at glitch
     play sound glitch_sound volume 0.5
@@ -141,5 +138,9 @@ label money_theft:
     scene black
     mc "Какого…."
 
-
-
+screen input_id():
+    input:
+        pos (650, 615)
+        length 16
+        allow "1234567890"
+        color "#000"
