@@ -3,7 +3,7 @@ define mum = Character("Мама", color="#ffffff")
 define den = Character("den_name", color="#62fa62", dynamic=True)
 define serg = Character("serg_name", color="#ff9e54", dynamic=True)
 define svet = Character("Света", color="#ff5050")
-define jan = Character("Вахтерша", color="#1b1b1b")
+define jan = Character("Вахтерша", color="#ff75ff")
 
 default den_name = "???"
 default serg_name = "???"
