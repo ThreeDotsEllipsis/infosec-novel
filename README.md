@@ -11,6 +11,8 @@
 
 # Артефакты
 
+Аналитика - https://docs.google.com/document/d/1LIOWTv7QvKuS4UCKyIegBbtEEMOV-glkhxgEnZzgmv8/edit
+
 Дизайн - https://drive.google.com/drive/folders/1cpwyMc6PRIbxA5w2VP6x_8My0pURdo27
 
 Сценарий - https://vk.com/doc177734937_669275769?hash=xlUPQiHczYXjZZkq5Q1p6ZrRAHZhxdV6Rvz2ivuNzVX&dl=neZsnulmbfBzpsKfjOQUMyVDquRKaJpvTbMYt34oBqL

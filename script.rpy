@@ -1,3 +1,3 @@
 ﻿label start:
-    jump radio_visit
+    jump card_accident
     return
