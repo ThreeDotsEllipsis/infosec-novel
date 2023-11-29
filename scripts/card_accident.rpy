@@ -59,7 +59,7 @@ label card_accident:
 
             show mother:
                 xzoom 1.0
-                linear 0.2 xalign 1.5
+                linear 0.3 xalign 1.5
             with hpunch
             play sound door_slam
 
@@ -77,7 +77,7 @@ label card_accident:
 
             show mother:
                 xzoom 1.0
-                linear 0.5 xalign 1.5
+                linear 0.7 xalign 1.5
 
     mc "Опять она с этим университетом пристала. Откуда я знаю, кем я хочу быть?"
 
@@ -109,7 +109,7 @@ label card_accident:
     mc "Я же недавно антивирус устанавливал. Да пошло оно всё…."
 
     show main_character:
-        linear 1 xalign 1.5
+        linear 1.2 xalign 1.5
     "..."
 
     jump cafe_trip
