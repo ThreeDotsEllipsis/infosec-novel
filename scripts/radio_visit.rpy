@@ -200,9 +200,7 @@ label radio_visit:
     scene black
     with fade
     
-    "Конец"
-
-    return
+    jump finale
 
 default menuset = set()
 default done = False
