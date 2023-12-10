@@ -1,5 +1,7 @@
 label cafe_trip:
-    scene black
+    scene street
+    show main_character:
+        xalign 0.6
     with fade
 
     "День стоит теплый. На площадке играют дети, бегают собаки, голуби дерутся с воробьями 
@@ -13,6 +15,8 @@ label cafe_trip:
     
     play music cafe_music volume 0.1 fadein 2
     scene cafe with fade
+    show main_character:
+        xalign 0.2
     "Тут он услышал 
     музыку и, повернув голову на звук, увидел кафе «У Нюры»."
 

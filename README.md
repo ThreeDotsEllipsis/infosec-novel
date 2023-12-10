@@ -11,7 +11,7 @@
 
 # Артефакты
 
-Аналитика - https://docs.google.com/document/d/1LIOWTv7QvKuS4UCKyIegBbtEEMOV-glkhxgEnZzgmv8/edit
+Аналитика - https://docs.google.com/document/d/1o1H6JKBOQwTxMhjrBQihD4Tn45Y-Oofh5op_JcyxpvE/edit
 
 Дизайн - https://drive.google.com/drive/folders/1cpwyMc6PRIbxA5w2VP6x_8My0pURdo27
 
