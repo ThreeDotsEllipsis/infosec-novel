@@ -21,7 +21,6 @@ label radio_visit:
     show denis:
         linear 0.7 xalign 0.2
     show sergei:
-        yalign 1.0
         linear 0.7 xalign 0.5
 
     den "Здарова, давно здесь стоишь?"
@@ -43,13 +42,12 @@ label radio_visit:
     довольно немолодой женщины."
 
     show sergei:
-        yalign 1.0
         xalign 0.6
     show main_character:
         xalign 0.3
     show denis:
         xalign 0.0
-    show mother:
+    show janitor:
         xalign 0.9
     with fade
 
@@ -98,12 +96,10 @@ label radio_visit:
 
     scene corridor
     show sergei:
-        yalign 1.0
         xalign 0.2
     show main_character:
         xalign 0.5
     show sveta:
-        yalign 1.0
         xalign 0.8
     with fade
 
@@ -137,12 +133,10 @@ label radio_visit:
     Здесь, в этом кабинете, было тихо и спокойно, не ощущалось никакой суеты."
 
     show sergei:
-        yalign 1.0
         xalign 0.2
     show main_character:
         xalign 0.5
     show sveta:
-        yalign 1.0
         xalign 0.8
     with fade
 
@@ -169,14 +163,12 @@ label radio_visit:
     несмотря на все события, которые происходили в недалеком прошлом."
 
     show sergei:
-        yalign 1.0
         xalign 0.9
     show main_character:
         xalign 0.6
     show denis:
         xalign 0.3
     show sveta:
-        yalign 1.0
         xalign 0.1
     with fade
 

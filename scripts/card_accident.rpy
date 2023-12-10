@@ -1,23 +1,30 @@
+image car1 scaled = im.FactorScale("images/objects/car1.png", 0.65)
+image car1 hover = im.FactorScale("images/objects/car1.png", 0.7)
+image car2 scaled = im.FactorScale("images/objects/car2.png", 0.65)
+image car2 hover = im.FactorScale("images/objects/car2.png", 0.7)
+image car3 scaled = im.FactorScale("images/objects/car3.png", 0.65)
+image car3 hover = im.FactorScale("images/objects/car3.png", 0.7)
+
 screen choose: 
     imagebutton: 
         at left
         focus_mask True 
-        idle "images/objects/car.jpg" 
-        hover "images/objects/car_hover.png"
+        idle "car1 scaled"
+        hover "car1 hover"
         padding (0.23, 0.3)
         action Return()
     imagebutton: 
         at center
         focus_mask True 
-        idle "images/objects/car.jpg" 
-        hover "images/objects/car_hover.png"
+        idle "car2 scaled"
+        hover "car2 hover"
         padding (0.23, 0.3)
         action Return()
     imagebutton: 
         at right
         focus_mask True 
-        idle "images/objects/car.jpg" 
-        hover "images/objects/car_hover.png"
+        idle "car3 scaled" 
+        hover "car3 hover"
         padding (0.23, 0.3)
         action Return()
 
@@ -101,9 +108,10 @@ label card_accident:
 
     "\"С вашей карты были списаны все деньги\""
 
+    show main_character angry
     mc "Адалваоиватпл." with vpunch
 
-    show main_character:
+    show main_character angry:
         xzoom 1.0
         linear 0.3 yalign 0.5
     mc "Я же недавно антивирус устанавливал. Да пошло оно всё…."

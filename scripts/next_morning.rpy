@@ -76,7 +76,9 @@ label next_morning:
             mc "Ладно, я побежал!"
 
     play sound "<from 0 to 4>audio/sounds/bus_ambiance.mp3" volume 0.1 fadein 1.0
-    scene black
+    scene bus
+    show main_character:
+        xalign 0.3
     with fade
     mc "«И куда эти бабушки ездят в субботу в 9 утра. Ответ на этот вопрос я никогда не узнаю .»"
 
