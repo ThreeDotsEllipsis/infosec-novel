@@ -23,13 +23,14 @@ define gui.show_name = True
 
 ## Версия игры.
 
-define config.version = "1.3-beta"
+define config.version = "1.0"
 
 
 ## Текст, помещённый в экран "Об игре". Поместите текст между тройными скобками.
 ## Для отделения абзацев оставляйте между ними пустую строку.
 
 define gui.about = _p("""
+Визуальная новелла разработана командой SuperMegaUltraTeam
 """)
 
 

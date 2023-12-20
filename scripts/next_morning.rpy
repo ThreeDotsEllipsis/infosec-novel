@@ -18,7 +18,8 @@ label next_morning:
             будильником и решает продлить сон." 
             play sound "<from 49 to 55>audio/sounds/meladze_song.mp3" volume 0.01 fadeout 1.0
             scene mc_room
-            show main_character
+            show main_character:
+                xalign 0.5
             with fade
 
             "Просыпается Олег от Меладзе, который поет на их кухне 
@@ -35,8 +36,10 @@ label next_morning:
             "Олег наспех одевается и выбегает из комнаты"
 
             scene kitchen
-            show main_character at left
-            show mother at right
+            show main_character:
+                xalign 0.2
+            show mother:
+                xalign 0.8
             with dissolve
 
             mum "С добрым утром! Ты чего так рано встал….."
@@ -48,7 +51,8 @@ label next_morning:
 
         "Проснуться вместе с будильником":
             scene mc_room
-            show main_character
+            show main_character:
+                xalign 0.5
             with fade
             "Олег встает вместе с будильником." 
 
@@ -58,8 +62,10 @@ label next_morning:
             доносится запах свежесваренного кофе и ароматных блинчиков." 
 
             scene kitchen
-            show main_character at left
-            show mother at right
+            show main_character:
+                xalign 0.2
+            show mother:
+                xalign 0.8
             with dissolve
 
             mum "С добрым утром! Ты чего так рано встал?"
