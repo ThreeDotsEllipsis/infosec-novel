@@ -70,6 +70,7 @@ label radio_visit:
     den "Уважаемая, я тут что-то нажал в телефоне, что-то разобрать не могу, посмотрите что 
     можно сделать"
 
+    play sound camera_flash volume 0.5
     "В это время Ден включает фонарик и направляет в глаза охраннице" with Fade(0.1, 0.0, 0.5, color="#fff")
 
     call run_choose from _call_run_choose
