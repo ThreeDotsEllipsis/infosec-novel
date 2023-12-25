@@ -29,6 +29,8 @@ screen choose:
         action Return()
 
 label card_accident:
+    play music card_accident volume 0.1 fadein 1
+
     scene mc_room 
     show main_character:
         xalign 0.2
